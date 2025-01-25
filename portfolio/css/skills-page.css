@@ -1,0 +1,177 @@
+/*
+authur: malek wahdan
+email:malek.whdn@gmail.com
+github:@malekwahdan
+date:22/1/2024
+project:portfolio
+version:1
+*/
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   font-family: "Poppins", serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: "Work Sans", sans-serif;
+   font-size: 16px;
+   line-height: 1.6;
+   position: relative;
+   background-color: rgb(45, 45, 45);
+   color: rgb(200, 200, 200);
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-weight: 300;
+   margin: 10px 0;
+}
+
+h1 {
+   font-size: 2.986rem;
+}
+
+h2 {
+   font-size: 2.488rem;
+}
+
+h3 {
+   font-size: 2.074rem;
+}
+
+h4 {
+   font-size: 1.728rem;
+}
+
+h5 {
+   font-size: 1.44rem;
+}
+
+h6 {
+   font-size: 1.2rem;
+}
+
+p {
+   font-size: 1rem;
+   margin: 10px 0;
+}
+
+.small {
+   font-size: 0.8rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    padding: 10px;
+}
+a:hover{
+    color: rgb(254, 219, 176);
+}
+.sidebardiv{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 70px;
+    align-items: center;
+    padding: 1rem;
+ }
+ .page-btn:hover{
+    border-color: rgb(254, 219, 176);
+    border-style: solid none solid none;
+    border-width: 1px;
+ }
+ .side-bar{
+    background-color: rgb(20, 20, 20) !important;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+ }
+ .page-btn:hover{
+    border-color: rgb(254, 219, 176);
+    border-style: solid none solid none;
+    border-width: 1px;
+ }
+ .page-btn{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    font-size: 22px;
+ }
+ .sidbaricons{
+    margin-top: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 260px;
+    width: 100%;
+ }
+ 
+ .skill-lists-container{
+    column-gap: 4rem;
+    margin-left: 20%;
+    margin-top: 12%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+ }
+ .skills-heading{
+    color: rgb(254, 219, 176);
+ }
+ .list-grid{
+   color: rgb(200, 200, 200);
+ }
+ ul{
+   padding: 2rem;
+ }
+ @media only screen and (max-width: 1196px){
+    .side-bar{
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+       width: 100%;
+       height: 70px;
+    }
+    .sidbaricons{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       padding-top: 12px;
+       margin: 0;
+       height: 44px;
+       padding: 0px;
+       width: 100%;
+    }
+    .skill-lists-container{
+        column-gap: 4rem;
+        margin-left: 0;
+        margin-top: 12%;
+     }
+    .page-btn{
+       height: 70px;
+    
+    }
+    .sidebardiv{
+       height: 66px;
+       margin: 0;
+       font-size: 12px;
+       padding: 0;
+    }
+    }
+    @media only screen and (max-width: 680px){
+        .skill-lists-container{
+            column-gap: 4rem;
+            row-gap: 4rem;
+            margin-top: 19%;
+            display: grid;
+            grid-template-columns: 1fr;
+            
+         }
+    }
+    @media only screen and (max-width: 473px){
+        .sidebardiv{
+           font-size: 40%;
+        }
+     }
